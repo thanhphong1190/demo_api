@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="detail.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="detailContainer">
+        <div class="coverImages">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="https://cache.marriott.com/marriottassets/marriott/ATLXS/atlxs-pool-9722-hor-feat.jpg" alt="Los Angeles" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/92/2016/12/17093512/Hotel-des-Arts-Saigon-Sky-Lounge-1500x690.jpg" alt="Chicago" width="1100" height="500">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="https://www.cachecreek.com/resourcefiles/hotel-room-inner/hotel-valley-view-patio-room-at-cache-creek-casino-resort-brooks.jpg" alt="New York" width="1100" height="500">
+                    </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <div class="detailBody">
+                <div class="container">
+                    <div class="detailContent d-flex">
+                        <div class="detailContentLeft d-flex flex-column">
+                            <h2>Lutton</h2>
+                            <span>Orondo</span>
+                            <div class="detailDescContent">
+                                <p>
+                                    This inspired dwelling nestled right into the breathtaking Columbia River Gorge mountainside. Reverently framed by the iconic round doorway, the wondrous views will entrance your imagination and inspire an unforgettable journey. Every nook of this little habitation will warm your sole, every cranny will charm your expedition of repose
+                                </p>
+                            </div>
+                            <div class="detailDescItem d-flex flex-column">
+                                <span class="detailItemTitle"><i class="fa fa-home" aria-hidden="true"></i> Earth house</span>
+                                <span class="detailItemDesc">Medium room</span>
+                            </div>
+                            <div class="detailDescItem d-flex flex-column">
+                                <span class="detailItemTitle"><i class="fa fa-bell-o" aria-hidden="true"></i> Self check in</span>
+                                <span class="detailItemDesc">Check yourself in with the keypad.</span>
+                            </div>
+                            <div class="detailDescItem d-flex flex-column">
+                                <span class="detailItemTitle"><i class="fa fa-bell-o" aria-hidden="true"></i> Sparkling clean</span>
+                                <span class="detailItemDesc">15 recent guests said this place was sparkling clean.</span>
+                            </div>
+                        </div>
+                        <div class="detailContentRight">
+                            <div class="detailPrice d-flex flex-column">
+                                <div class="d-flex align-items-center">
+                                    <span class="priceNum">$150</span>
+                                    <span>per night</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="starReview"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                    <span>4.87 (500 reviews)</span>
+                                </div>
+                            </div>
+                            <div class="reserveContainer">
+                                <div class="form-group">
+                                    <label for="dates">Dates</label>
+                                    <input type="number" class="form-control" id="dates" placeholder="Dates">
+                                </div>
+                                <div class="form-group">
+                                    <label for="audult">Guests</label>
+                                    <input type="number" class="form-control" id="audult" placeholder="Guests">
+                                </div>
+                                <button type="button" class="btn btn-info reserveButton">Reserve</button>
+                                <div class="chargeNotice"><small>You won’t be charged yet</small></div>
+                            </div>
+                        </div>
+                        <div class="reserveMobile">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center">
+                                    <span class="detailPriceMobile">$150</span>
+                                    <span>per night</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="starReview"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                                    <span>4.87 (500 reviews)</span>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-info">Reserve</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="myScript.js"></script>
+
+</body>
+</html>
